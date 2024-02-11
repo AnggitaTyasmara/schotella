@@ -1,0 +1,24 @@
+CRITICAL - 2024-01-05 02:24:21 --> Unsupported operand types: null + string
+#0 [internal function]: CodeIgniter\Debug\Toolbar::CodeIgniter\Debug\{closure}(Array, 0)
+#1 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(270): array_walk(Array, Object(Closure))
+#2 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(170): CodeIgniter\Debug\Toolbar->collectTimelineData(Array)
+#3 C:\xampp\htdocs\schotella\system\Debug\Toolbar\Views\toolbar.tpl.php(96): CodeIgniter\Debug\Toolbar->renderTimeline(Array, 1704443061.3617, 5, 15, Array)
+#4 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#6 C:\xampp\htdocs\schotella\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#7 C:\xampp\htdocs\schotella\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#8 C:\xampp\htdocs\schotella\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#9 C:\xampp\htdocs\schotella\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-05 02:42:12 --> Unsupported operand types: null + string
+#0 [internal function]: CodeIgniter\Debug\Toolbar::CodeIgniter\Debug\{closure}(Array, 0)
+#1 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(270): array_walk(Array, Object(Closure))
+#2 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(170): CodeIgniter\Debug\Toolbar->collectTimelineData(Array)
+#3 C:\xampp\htdocs\schotella\system\Debug\Toolbar\Views\toolbar.tpl.php(96): CodeIgniter\Debug\Toolbar->renderTimeline(Array, 1704444131.8995, 7, 10, Array)
+#4 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\schotella\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#6 C:\xampp\htdocs\schotella\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#7 C:\xampp\htdocs\schotella\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#8 C:\xampp\htdocs\schotella\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#9 C:\xampp\htdocs\schotella\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

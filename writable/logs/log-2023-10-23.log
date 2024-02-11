@@ -1,0 +1,946 @@
+CRITICAL - 2023-10-23 16:45:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\cafein\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-10-23 16:45:02 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:47:32 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:47:32 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:47:47 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:47:47 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:48:28 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:48:28 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:48:56 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:48:56 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:56:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:56:58 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:267
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 267)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(267): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:56:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:56:58 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:267
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 267)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(267): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 09:56:59 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 09:56:59 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:267
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 267)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(267): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:01:00 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:01:00 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:267
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 267)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(267): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:01:09 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:01:09 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:04:00 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:04:00 --> syntax error, unexpected token "==", expecting ")"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:04:13 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:04:13 --> syntax error, unexpected token "==", expecting ")"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:04:35 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:04:35 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:09:18 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:09:18 --> syntax error, unexpected token "if", expecting ";" or "{"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:09:19 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:09:19 --> syntax error, unexpected token "if", expecting ";" or "{"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:21 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:21 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:251
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 251)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(251): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:57 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:57 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:10:58 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 17:58:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\cafein\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-10-23 17:58:23 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 10:59:24 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 10:59:24 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:252
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(252): strtolower(NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:09 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:09 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:09 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:09 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:10 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:10 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:14 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:14 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:15 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:15 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:15 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:15 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:16 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:16 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:17 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:17 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:18 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:18 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:18 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:18 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:19 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:20 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:20 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:20 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:20 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:10:21 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\cafein\system\Validation\FormatRules.php:270
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\cafein\system\Validation\FormatRules.php(270): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-23 11:11:52 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:11:56 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:15:16 --> Too few arguments to function App\Controllers\Dashboard::__construct(), 0 passed in C:\xampp\htdocs\cafein\system\CodeIgniter.php on line 801 and exactly 4 expected
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-23 11:15:17 --> Too few arguments to function App\Controllers\Dashboard::__construct(), 0 passed in C:\xampp\htdocs\cafein\system\CodeIgniter.php on line 801 and exactly 4 expected
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-23 11:15:18 --> Too few arguments to function App\Controllers\Dashboard::__construct(), 0 passed in C:\xampp\htdocs\cafein\system\CodeIgniter.php on line 801 and exactly 4 expected
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-23 11:16:28 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-23 11:16:29 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-23 11:16:31 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-23 11:16:32 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cafein\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-23 11:16:47 --> Undefined variable $menuModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:16:48 --> Undefined variable $menuModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:17:20 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:18:23 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:18:24 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 11:18:24 --> Creation of dynamic property App\Controllers\Dashboard::$menuModel is deprecated
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
